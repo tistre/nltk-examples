@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # coding=UTF-8
 #
 # Output the 50 most-used words from a text file, using NLTK FreqDist()
