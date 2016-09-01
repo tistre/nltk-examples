@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # coding=UTF-8
 #
 # Output the 50 most-used words from a text file, using NLTK FreqDist()
@@ -74,4 +75,4 @@ fdist = nltk.FreqDist(words)
 # Output top 50 words
 
 for word, frequency in fdist.most_common(50):
-    print('%s;%d' % (word, frequency)).encode('utf-8')
+    print('{};{}'.format(word, frequency))
