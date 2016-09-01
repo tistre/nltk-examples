@@ -6,7 +6,7 @@
 #
 # Usage:
 #
-#   python freqdist_top_words.py input.txt
+#   ./freqdist_top_words.py input.txt
 #
 # Sample output:
 #
