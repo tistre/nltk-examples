@@ -75,4 +75,4 @@ fdist = nltk.FreqDist(words)
 # Output top 50 words
 
 for word, frequency in fdist.most_common(50):
-    print('{};{}'.format(word, frequency)).encode('utf-8')
+    print('{};{}'.format(word, frequency))
